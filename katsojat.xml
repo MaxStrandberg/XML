@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<toplista tyyppi='vko02' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:noNamespaceSchemaLocation='katsojat.xsd'>
+ <tiedot>
+  <vuosi>2018</vuosi>
+  <viikko>2</viikko>
+  	<lahde>Finnpanel Oy / TV-mittaritutkimus</lahde>
+  <saate>Finnpanel Oy mittaa jatkuvalla paneelitutkimuksella suomalaisten tv-katselua. 
+      TV-mittaritutkimukseen on satunnaisesti valittu 1100 taloutta siten, että ne edustavat TV-talouksia Suomessa. 
+      Tutkimukseen osallistuvat kaikki kolme vuotta täyttäneet perheenjäsenet, yhteensä noin 2300 henkilöä.</saate>
+ </tiedot>
+ <ohjelmat>
+  <ohjelma jnro="1" kanava="YLE TV1">
+    <nimi>Yle Uutiset</nimi>
+    <katsojamaara>1047000</katsojamaara>
+	<aika paiva="ma" kello="20:30" />
+  </ohjelma>
+  <ohjelma jnro="2" kanava="YLE TV1">
+    <nimi>Urheiluruutu</nimi>
+    <katsojamaara>1043000</katsojamaara>
+	<aika paiva="ma" kello="20:55" />
+  </ohjelma>
+  <ohjelma jnro="3" kanava="YLE TV1">
+    <nimi>Yle Uutiset alueeltasi</nimi>
+    <katsojamaara>889000</katsojamaara>
+	<aika paiva="ma" kello="18:22" />
+  </ohjelma>
+  <ohjelma jnro="4" kanava="YLE TV1">
+    <nimi>Presidentinvaalit 2018: Laura Huhtasaari</nimi>
+    <katsojamaara>846000</katsojamaara>
+	<aika paiva="ti" kello="21:00" />
+  </ohjelma>
+  <ohjelma jnro="5" kanava="YLE TV1">
+    <nimi>Presidentinvaalit 2018: Paavo Väyrynen</nimi>
+    <katsojamaara>824000</katsojamaara>
+	<aika paiva="ma" kello="21:00" />
+  </ohjelma>
+  <ohjelma jnro="6" kanava="YLE TV2">
+    <nimi>Ampumahiihdon MC: Naisten yhteislähtö</nimi>
+    <katsojamaara>778000</katsojamaara>
+	<aika paiva="su" kello="15:39" />
+  </ohjelma>
+  <ohjelma jnro="7" kanava="MTV3">
+    <nimi>Kymmenen Uutiset</nimi>
+    <katsojamaara>736000</katsojamaara>
+	<aika paiva="to" kello="21:56" />
+  </ohjelma>
+  <ohjelma jnro="8" kanava="YLE TV1">
+    <nimi>Kotiin takaisin (12)</nimi>
+    <katsojamaara>726000</katsojamaara>
+	<aika paiva="ma" kello="17:08" />
+  </ohjelma>
+  <ohjelma jnro="9" kanava="YLE TV2">
+    <nimi>Kultainen Venla</nimi>
+    <katsojamaara>714000</katsojamaara>
+	<aika paiva="pe" kello="20:00" />
+  </ohjelma>
+  <ohjelma jnro="10" kanava="YLE TV1">
+    <nimi>Presidentinvaalit 2018: Matti Vanhanen</nimi>
+    <katsojamaara>699000</katsojamaara>
+	<aika paiva="to" kello="21:00" />
+  </ohjelma>
+ </ohjelmat>
+</toplista>

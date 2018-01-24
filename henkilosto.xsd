@@ -1,0 +1,59 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="henkilosto">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="henkilo" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="hetu" type="xs:string"/>
+<xs:element name="nimi">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="sukunimi" type="xs:string"/>
+<xs:element name="etunimi" type="xs:string" maxOccurs="3"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="osoite" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="lahiosoite" type="xs:string" minOccurs="0"/>
+<xs:element name="postinumero" type="xs:string"/>
+<xs:element name="postitoimipaikka" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="tiimi" minOccurs="0">
+<xs:complexType>
+<xs:attribute name="nimi" type="xs:string" use="required"/>
+<xs:attribute name="asema" type="xs:string" default="jäsen"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="email" type="xs:string"/>
+<xs:element name="puhelin" maxOccurs="3">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute name="type" type="xs:string" default="työ"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="nimike" type="xs:string"/>
+<xs:element name="tyohuone" minOccurs="0">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute name="sijainti" type="xs:string" default="Helia1"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="tunnus" type="xs:string" use="required"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

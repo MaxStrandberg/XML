@@ -1,0 +1,62 @@
+<henkilosto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="henkilosto.xsd">
+<henkilo tunnus="marsi">
+<hetu>123456-123A</hetu>
+<nimi>
+<sukunimi>Marttila</sukunimi>
+<etunimi>Sirpa</etunimi>
+<etunimi>Anneli</etunimi>
+</nimi>
+<osoite>
+<lahiosoite>Ratapihantie 13</lahiosoite>
+<postinumero>00520</postinumero>
+<postitoimipaikka>HELSINKI</postitoimipaikka>
+</osoite>
+<tiimi nimi="Tiedonhallinta" asema="jäsen"/>
+<email>sirpa.marttila@haaga-helia.fi</email>
+<puhelin type="keskus">09 229 611</puhelin>
+<puhelin>040 488 7288</puhelin>
+<nimike>Lehtori</nimike>
+<tyohuone sijainti="Helia1">6031</tyohuone>
+</henkilo>
+<henkilo tunnus="jaami">
+<hetu>123456-123B</hetu>
+<nimi>
+<sukunimi>Jakkola</sukunimi>
+<etunimi>Mirja</etunimi>
+</nimi>
+<email>mirja.jaakkola@haaga-helia.fi</email>
+<puhelin>040 488 7267</puhelin>
+<nimike>Lehtori</nimike>
+</henkilo>
+<henkilo tunnus="ulpel">
+<hetu>123456-123C</hetu>
+<nimi>
+<sukunimi>Ulpovaara</sukunimi>
+<etunimi>Elina</etunimi>
+</nimi>
+<email>elina.ulpvaara@haaga-helia.fi</email>
+<puhelin>040 488 7282</puhelin>
+<nimike>Lehtori</nimike>
+<tyohuone sijainti="Helia1">6031</tyohuone>
+</henkilo>
+<henkilo tunnus="kivha">
+<hetu>123456-123E</hetu>
+<nimi>
+<sukunimi>Kivihalme</sukunimi>
+<etunimi>Minna</etunimi>
+</nimi>
+<email>minna.kivihalemi@haaga-helia.fi</email>
+<puhelin>050 310 4017</puhelin>
+<nimike>Koulutusohjelmajohtaja</nimike>
+</henkilo>
+<henkilo tunnus="lehpa">
+<hetu>123456-123F</hetu>
+<nimi>
+<sukunimi>Lehessalo</sukunimi>
+<etunimi>Paavo</etunimi>
+</nimi>
+<email>paavo.lehessalo@haaga-helia.fi</email>
+<puhelin>050 310 0634</puhelin>
+<nimike>Koulutusohjelmajohtaja</nimike>
+</henkilo>
+</henkilosto>
